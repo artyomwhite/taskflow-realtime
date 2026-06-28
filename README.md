@@ -2,10 +2,6 @@
 
 Real-time task management SaaS with secure authentication, PostgreSQL persistence, and instant WebSocket sync across clients.
 
-![TaskFlow Dashboard](./docs/screenshots/dashboard.png)
-
-> Add screenshots to `docs/screenshots/` after running the app locally.
-
 ## Overview
 
 TaskFlow Realtime is a full-stack task management application built for teams that need a fast, reliable way to create, track, and complete work. Users sign in securely, manage personal task boards, and see updates in real time without refreshing the page.
@@ -48,7 +44,6 @@ TaskFlow Realtime is a full-stack task management application built for teams th
 taskflow-realtime/
 ├── backend/          # NestJS API, Prisma, Socket.IO gateway
 ├── frontend/         # Next.js App Router client
-├── docs/screenshots/
 ├── .env.example
 ├── .gitignore
 └── README.md
